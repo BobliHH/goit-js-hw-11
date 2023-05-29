@@ -12,9 +12,61 @@ body {
   line-height: 1.5;
 }
 
+ul{
+ list-style-type: none; 
+}
+
 #search-box {
+  display: block;
+  margin: 0 auto;
   font: inherit;
   padding: 8px;
   max-width: 320px;
   margin-bottom: 16px;
+  background: transparent;
+  border-radius:50;
+  color: #ffffff;
 }
+
+.country-list,
+.country-info {
+  display: flex;
+  flex-direction: column;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+
+p {
+  color:red;
+  text-align: center;
+}
+
+img {
+  margin: 0 auto;
+  align-items: center;
+  text-align: center;
+  border-radius:40;
+}
+
+span{
+  color: #ffffff;
+}
+
+.search-container {
+  width: 100%;
+  padding: 10px;
+  position: fixed;
+  background-color: gray;
+}
+
+.search-form{
+  display: flex;
+  justify-content: center;
+  border-radius: 50px;
+}
+
+.search-form input{
+    border-radius: 5px;
+}
+
