@@ -21,10 +21,12 @@
     "@vimeo/player": "^2.19.0",
     "axios": "^1.4.0",
     "debounce": "^1.2.1",
+    "dotenv": "^16.0.3",
     "flatpickr": "^4.6.13",
     "lodash": "^4.17.21",
     "modern-normalize": "^1.1.0",
     "notiflix": "^3.2.6",
+    "pixabay-api": "^1.0.4",
     "simplelightbox": "^2.14.0"
   },
   "devDependencies": {

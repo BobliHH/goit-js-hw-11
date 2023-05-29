@@ -2,7 +2,7 @@ import './css/styles.css';
 import notiflix from 'notiflix';
 import axios from 'axios';
 // Descris în documentație
-import SimpleLightbox from "simplelightbox";
+import simpleLightbox from "simplelightbox";
 // Import suplimentar de stil
 import "simplelightbox/dist/simple-lightbox.min.css";
 
