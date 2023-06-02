@@ -17,6 +17,7 @@ let query = '';
 let page = 1;
 let simpleLightBox;
 const perPage = 40;
+loadMoreBtn.classList.add('is-hidden');
 
 searchForm.addEventListener('submit', onSearchForm);
 loadMoreBtn.addEventListener('click', onLoadMoreBtn);
@@ -26,6 +27,7 @@ function onSearchForm(e) {
   page = 1;
   query = e.currentTarget.searchQuery.value.trim();
   gallery.innerHTML = '';
+  loadMoreBtn.classList.add('is-hidden');
 
   if (query === '') {
     alertNoEmptySearch();
