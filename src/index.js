@@ -8,8 +8,7 @@ import { fetchImages } from './js/fetchImages';
 import { renderGallery } from './js/renderImages';
 
 const body = document.querySelector('body');
-body.style.backgroundColor = 'rgb(0, 0, 168)';
-
+body.style.background ='linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,22,121,1) 11%, rgba(0,212,255,1) 100%)';
 const searchForm = document.querySelector('#search-form');
 const gallery = document.querySelector('.gallery');
 const loadMoreBtn = document.querySelector('.load-more');
